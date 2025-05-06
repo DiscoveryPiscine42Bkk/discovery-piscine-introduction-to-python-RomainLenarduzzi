@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 password = "Python is awesome"
+user_input = str(input())
 
 def check_password(input_password):
     if input_password == password:
@@ -8,5 +9,5 @@ def check_password(input_password):
     else:
          return "ACCESS DENIED"
     
-user_input = input()
+
 print(check_password(user_input))
