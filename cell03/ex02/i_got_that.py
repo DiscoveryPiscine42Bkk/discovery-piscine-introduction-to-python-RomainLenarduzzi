@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 
-input("What you gotta say? :")
+a = input("What you gotta say? :")
 
-while True:
-    answer = input("I got that! Anything else? :")
-    if answer == "STOP":
-        break
+while a != "STOP":
+    a = input("I got that! Anything else? :")
