@@ -1,4 +1,4 @@
-#!/user/bin/env python3
+#!/usr/bin/env python3
 
 first_number = int(input("Enter the first number:\n"))
 second_number = int(input("Enter the second number:\n"))
@@ -9,7 +9,7 @@ def multiply(first_number, second_number):
     if first_number * second_number > 0:
         return"The result is positive."
     elif first_number * second_number < 0:
-        return "The result is negqtive."
+        return "The result is negative."
     else:
         return "The result is positive and negative."
     
